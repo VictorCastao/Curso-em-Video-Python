@@ -1,0 +1,5 @@
+print ("============Desafio 3============")
+um = input ("Qual o numero 1? ")
+dois = input ("Qual o numero 2? ")
+soma = int (um) + int (dois)
+print ("A soma é igual a" , soma)

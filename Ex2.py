@@ -1,0 +1,6 @@
+print ("============Exercício 2============")
+nome = input("Digite seu nome: ")
+print("Seja bem vindx,",nome,"! É um prazer conhecê-lx !")
+print ("============Outra Forma============")
+nome2 = input("Digite seu nome: ")
+print("Seja bem vindx, {}! É um prazer te conhecer.".format(nome2))
