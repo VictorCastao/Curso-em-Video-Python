@@ -1,0 +1,6 @@
+print('='*12+'Desafio 24'+'='*12)
+cidade = input('Digite a cidade: ')
+nome = cidade.strip()
+nome = nome.upper()
+lista = nome.split()
+print(f'{"SANTO" in lista[0]}')
