@@ -6,7 +6,9 @@ nascimento = int(input('Digite o ano de nascimento do atleta: '))
 idade = atual - nascimento
 cor = '\033[32m'
 normal = '\033[m'
-if idade <= 9:
+if idade < 0:
+    print('Ano de nascimento inválido!')
+elif idade <= 9:
     print(f'Idade: {cor}{idade}{normal} anos')
     print(f'Categoria: {cor}MIRIM{normal}')
 elif idade <= 14:
@@ -15,7 +17,7 @@ elif idade <= 14:
 elif idade <= 19:
     print(f'Idade: {cor}{idade}{normal} anos')
     print(f'Categoria: {cor}JÚNIOR{normal}')
-elif idade <= 20:
+elif idade <= 25:
     print(f'Idade: {cor}{idade}{normal} anos')
     print(f'Categoria: {cor}SÊNIOR{normal}')
 else:

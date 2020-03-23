@@ -5,7 +5,9 @@ print("""As suas opções de conversão são:
 2 - Octal
 3- Hexadecimal""")
 option = int(input('Digite a opção escolhida: '))
-if option == 1:
+if option < 1 or option > 3:
+    print('Opção Inválida!')
+elif option == 1:
     resp = str(bin(num))
     print(f'O número \033[32m{num}\033[m, convertido para binário, corresponde a \033[32m{resp[2:]}\033[m!')
 elif option == 2:
