@@ -1,0 +1,11 @@
+from random import randrange
+print('=' * 12 + 'Desafio 74' + '=' * 12)
+a = randrange(101)
+b = randrange(101)
+c = randrange(101)
+d = randrange(101)
+e = randrange(101)
+tupla = (a, b, c, d, e)
+print(f'A tupla é: {tupla}')
+ordem = sorted(tupla)
+print(f'O maior é {ordem[4]} e o menor é {ordem[0]}')
