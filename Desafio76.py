@@ -1,3 +1,4 @@
+print('=' * 12 + 'Desafio 76' + '=' * 12)
 tupla = (
     'Arroz', 9.5, 'Feijão', 4.5, 'Batata', 2.3, 'Café', 7.7, 'Leite', 2.8, 'Rúcula', 3.5, 'Nescau', 11, 'Tomate', 4.5)
 tamanho = len(tupla)

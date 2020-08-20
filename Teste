@@ -1,4 +1,4 @@
-lista = list(range(1, 11))
-for i,v in enumerate(lista):
-    print(f'Posição {i}: numero {v}!')
-print(lista)
+pessoas = {'nome' : 'Victor', 'sexo': 'M', 'idade': 20}
+pessoas['nick'] = 'QIO'
+for k, v in pessoas.items():
+    print(f'{k} {v}')
